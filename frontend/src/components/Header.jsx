@@ -24,13 +24,13 @@
 
 
 import { Link } from "react-router-dom";
-import logo from '../../public/logo-bg.png'; // adjust path
+import logo from '../../public/logo-letest.png'; 
 
 const Header = () => (
   <header className="flex justify-between items-center px-6 py-4 bg-white shadow">
       <div className="container mx-auto flex justify-between items-center">
        <Link to="/">
-         <img src={logo} alt="Gym App Logo" className="size-20 max-h-96 cursor-pointer" />
+         <img src={logo} alt="Gym App Logo" className="w-72 cursor-pointer" />
        </Link>
          <nav className="space-x-12">
            <Link to="/" className="hover:underline">Home</Link>
